@@ -1,0 +1,48 @@
+@import url("reset.css");
+
+
+
+*{color:blue;
+}
+
+/*Селектор класу*/
+
+.blok_text {color:red;
+}
+
+/*селектор тегу*/
+
+h1{color:grey;
+}
+
+/*селектор id*/
+
+#id8{color:yellowgreen;
+}
+
+/*каскадність селекторів*/
+
+.list a{color:yellow;
+}
+
+p>span{color:green;
+}
+
+.blok~p{color:black;
+}
+
+.blok+h2{color:aqua;
+   }
+
+   .list .item{color:black;
+   }
+   .text .sub-title-chi{color:greenyellow;
+   }
+
+   .footer>.footer-list{color:black;
+   }
+
+/*селектори атрибутів*/
+
+[class*="sub"]{color:pink;
+}
