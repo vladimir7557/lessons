@@ -1,0 +1,406 @@
+   @import url("fonts.css");
+  
+   @import url("reset.css");
+
+
+   body{
+      color: #7D7D7D;
+      font-size: 18px;
+      font-family: Inter, sans-serif;
+      font-weight: 400;
+      }
+
+/*================section1=========================*/
+
+.business-container{
+   max-width: 703px ;
+   margin: 0 auto 50px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 50px;
+   }
+
+.business-sub-title {
+   color: #37393F;
+   font-size: 18px;
+   font-family: Inter, sans-serif;
+   font-weight: 500;
+   line-height: 1.22;
+   background: url('../img/Box.jpg') 0 5px / 12px 12px no-repeat;
+   padding-left: 18px;
+   min-height: 22px;
+   margin-bottom: 16px;
+   display: inline-block;
+}
+
+.business-title {
+   color: #37393F;
+   font-size: 40px;
+   font-family: Poppins, sans-serif;
+   font-weight: 700;
+   line-height: 1.21;
+   margin: 20px;
+}
+
+.business-text p~p{
+   margin-top: 15px;
+   }
+.business-text{
+   line-height: 1.46;
+    margin-bottom: 20px;
+}
+
+.business-list {
+   color: #37393F;
+   font-size: 20px;
+   font-family: Poppins, sans-serif;
+   font-weight: 400;
+   line-height: 1.5;
+   margin-bottom: 43px;
+}
+.business-list li~li{
+    margin-top:23px;
+}
+
+.business-item {
+background: url("../img/Vector.jpg") 0 3px / 27px 27px no-repeat;
+padding-left: 35px;
+min-height: 33px;
+   
+}
+
+.business-second-list {
+   margin-bottom: 37px;
+}
+
+.business-second-item {
+   border: 1px solid #E3E3E3;
+   padding: 31px 32px 32px 32px;
+   width:295px ;
+   display: inline-block;
+   margin-right: 21px;
+   
+}
+
+.business-second-content {}
+
+.business-second-sub-title-right,
+.business-second-sub-title-left {
+   color: #37393F;
+   font-size: 20px;
+   font-family: Poppins, sans-serif;
+   font-weight: 600;
+   background: url("../img/diploma.jpg") 0 0 / 39px 39px no-repeat;
+   padding-left: 58px;
+   min-height: 39px;
+   line-height: 1.5;
+   margin-bottom: 3px;
+}
+
+.business-second-sub-title-right{
+  background: url("../img/pennat.jpg") 0 0 / 39px 39px no-repeat;
+}
+
+
+.business-second-text {
+   font-size: 16px;
+   line-height: 1.35;
+}
+
+.business-button {
+   font-weight: 600;
+   text-transform: capitalize;
+   line-height: 1.22;
+   padding: 22px 27px;
+   background: #6B77E5;
+   color: white;
+   display: inline-block;
+   }
+
+/*=========section2=============*/
+  .projects{
+   padding-bottom: 100px;
+   padding-top: 100px;
+
+  }
+
+.projects-container-more {
+   margin: 0 auto;
+   max-width: 1250px;
+   padding: 0 15px;
+   font-size: 0 ;
+
+}
+
+.projects-container-less {
+   margin: 0 auto;
+   max-width: 852px; 
+   margin-bottom: 47px;
+   text-align: center;
+}
+
+.project-sub-title {
+   background: url('../img/Box.jpg') 0 4px / 12px 12px no-repeat;
+   display: inline-block;
+   padding-left: 18px;
+   color: #37393F;
+   font-family: Inter, sans-serif;
+   font-weight: 500;
+   line-height: 1.22;
+   min-height: 22px;
+   margin-bottom: 14px;
+   font-size: 18px;
+}
+
+.project-title {
+   color: #37393F;
+   font-size: 40px;
+   font-family: Poppins,sans-serif;
+   font-weight: 700;
+   line-height: 1.2;
+   margin-bottom: 14px;
+}
+
+.projet-text {
+line-height: 1.46;
+font-size: 18px;
+}
+
+.project-foto-fist-row {}
+
+.project-item { 
+   max-width: 384px;
+   display: inline-block;
+   width: 100%;
+}
+
+.project-img-fist-row-fist {
+   background: url("../img/Photo-1.jpg") center/ cover no-repeat;
+   min-height: 501px;
+   max-width: 100%;
+   margin-bottom: 24px;
+   margin-right: 34px;
+}
+.project-img-second-row-fist{
+   background: url("../img/photo-2.jpg") center/ cover no-repeat;
+   min-height: 501px;
+   max-width: 100%;
+   margin-right: 34px;
+   margin-bottom: 24px;
+}
+.project-img-third-row-fist{
+   background: url("../img/Photo-3.jpg") center/ cover no-repeat;
+   min-height: 501px;
+   margin-bottom: 24px;
+   max-width: 100%;
+}
+.project-img-fist-row-second{
+   background: url("../img/Photo-4.jpg") center/ cover no-repeat;
+   min-height: 501px;
+   max-width: 100%;
+   margin-bottom: 24px;
+   margin-right: 34px;
+   }
+ .project-img-second-row-second{
+  background: url("../img/Photo5.jpg") center/ cover no-repeat;
+   min-height: 501px;
+   max-width: 100%;
+   margin-bottom: 24px;
+    margin-right: 34px;
+ }
+ .project-img-third-row-second {
+    background: url("../img/Photo6.jpg") center/ cover no-repeat;
+    min-height: 501px;
+    max-width: 100%;
+    margin-bottom: 24px;
+ }
+
+
+.project-sub-title-foto {
+   color: #37393F;
+   font-size: 20px;
+   font-family: Poppins, sans-serif;
+   font-weight: 600;
+   line-height:1.27;
+   margin-bottom: 10px;
+}
+
+.date {
+      font-size: 14px;
+      font-family: Inter,sans-serif;
+      line-height:1.46;
+      background: url("../img/calendar.jpg") no-repeat;
+      padding-left: 25px;
+      min-height: 22px;
+      margin-bottom: 58px;
+}
+
+/*=========section3=============*/
+
+.clothing {
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.clothing-container {
+  max-width:1270px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  }
+  .clothing-container *{
+   padding-left: 21px;
+  }
+
+.clothing-title {
+   background: url("../img/sign.jpg") no-repeat;
+   color: #3C4242;
+   font-size: 28px;
+   font-family: Core-sans,sans-serif;
+   font-weight: 600;
+   line-height: 33.50px;
+   letter-spacing: 0.56px;
+   margin-bottom: 30px;
+   
+}
+.clothing-span{
+   color: #807D7E;
+   font-size: 20px;
+   font-family: Causten,sans-serif;
+   font-weight: 700;
+   line-height: 1.68;
+}
+.clothing-link,
+.clothing-text,
+.clothing-sub-title {
+   color: #807D7E; 
+   font-size: 20px;
+   font-family: Core-sans,sans-serif;
+   font-weight: 600;
+   line-height: 1.68;
+   letter-spacing: 0.40px;
+   margin-bottom:25px ;
+}
+
+.clothing-text {
+   font-family: Causten,sans-serif;
+   font-weight: 400;
+}
+.clothing-text p~p{
+   margin-top: 20px;
+}
+
+.clothing-link {
+   display:inline-block ;
+   margin-bottom: 0;
+   }
+
+/*=========section4=============*/
+
+
+.we-made {
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+.we-made-container {
+   max-width: 1270px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+
+   }
+.we-made-block{
+   font-size:0 ;
+   border-radius: 8px;
+   }
+
+.we-made-text {
+   max-width: 451px;
+   color: white;
+   font-size: 20px;
+   font-family: Causten,sans-serif;
+   font-weight: 300;
+   letter-spacing: 1px;
+   margin-bottom: 50px;
+}
+
+
+.we-made-img-fist{
+   background: url("../img/leaves.jpg") center/ cover no-repeat;
+   min-height: 640px;
+   width: 614px;
+   display: inline-block;
+   vertical-align: top;
+   padding: 183px 74px 175px;
+   
+}
+.we-made-img-second{
+   background:url("../img/fashion.jpg") center/ cover no-repeat;
+   min-height: 640px;
+   width: 626px;
+   display: inline-block;
+   
+}
+.title-practice,
+.we-made-title{
+   color: white;
+   font-size: 34px;
+   font-family: Core Sans C,sans-serif;
+   font-weight: 800;
+   line-height: 50px;
+   letter-spacing: 0.21px
+}
+
+.we-made-link {
+   color: #3C4242;
+   font-size: 18px;
+   font-family: Causten;
+   font-weight: 600;
+   background-color: white;
+   padding: 12px 44px;
+   border-radius: 8px;
+}
+
+/*=========practice=============*/
+
+
+.practice{
+   padding-top: 50px ;
+   max-width: 1200px;
+   margin: 0 auto ;
+   text-align:center;
+   
+}
+.text-color1{
+   background-color:rgba(128, 128, 128, 0.437);
+   padding:20px;
+   margin: 50px;
+}
+.title-practice{
+   margin-bottom: 50px;
+   color: gray;
+}
+  .gradient-background2{
+   height: 100px;
+   background: rgb(131, 58, 180);
+   background: radial-gradient(circle, rgba(131, 58, 180, 1) 0%,
+    rgba(69, 37, 37, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    margin-bottom: 50px;
+}
+
+.position-background3{
+   height: 400px;
+   background-color: rgba(44, 7, 7, 0.686);
+   background-image: url("../img/planeta.jpg") ;
+   background-repeat:no-repeat;
+   background-position: 600px center;
+   background-attachment:fixed;
+   margin-bottom: 50px;
+
+} 
+ .lite-background4 {
+    background:grey url("../img/light.jpg") 400px 0 / 400px 300px no-repeat;
+    height: 300px;
+    
+ }
