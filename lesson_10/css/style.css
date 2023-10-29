@@ -1,0 +1,13 @@
+   @import url("fonts.css");
+  
+   @import url("reset.css");
+
+
+main{
+   padding-top: 50px;
+   padding-left:50px ;
+   padding-bottom: 50px;
+}
+.blok-img p:not(:last-child) {
+margin-bottom: 20px;
+}
