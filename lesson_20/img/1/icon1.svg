@@ -1,0 +1,29 @@
+<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="25" fill="#F5F5F5"/>
+<g id="04" clip-path="url(#clip0_0_1)">
+<rect width="1600" height="5783" transform="translate(-533 -5252)" fill="white"/>
+<g id="15592570" clip-path="url(#clip1_0_1)">
+<rect width="1600" height="5795" transform="translate(-533 -5252)" fill="#FEFAF4"/>
+<g id="Group 5803">
+<g id="Group 5799">
+<g id="card">
+<g id="details">
+<g id="icon">
+<path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M12 25.0001C18.6274 25.0001 24 19.4335 24 12.5667C24 5.69993 18.6274 0.133301 12 0.133301C5.37258 0.133301 0 5.69993 0 12.5667C0 19.4335 5.37258 25.0001 12 25.0001Z" fill="#F55529"/>
+<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M12.867 7.63019C13.19 7.30458 13.7134 7.30458 14.0364 7.63019L17.7033 11.3265C18.0989 11.7251 18.0989 12.3719 17.7033 12.7706L14.0364 16.4669C13.7134 16.7924 13.19 16.7924 12.867 16.4669C12.5437 16.141 12.5437 15.6124 12.867 15.2865L15.0581 13.0778H7.01199C6.45309 13.0778 6 12.6208 6 12.057C6 11.4932 6.45309 11.0362 7.01199 11.0362H15.075L12.867 8.81059C12.5437 8.4847 12.5437 7.95608 12.867 7.63019Z" fill="#F0F0F0"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1600" height="5783" fill="white" transform="translate(-533 -5252)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="1600" height="5795" fill="white" transform="translate(-533 -5252)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,800&display=swap");
+*,
+* ::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  line-height: 1;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+/* FORM */
+input,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  color: inherit;
+  background-color: transparent;
+}
+
+button,
+select,
+option {
+  cursor: pointer;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.wrapper {
+  overflow: clip;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+}
+
+.wrapper main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.popular {
+  background: url("../img/1/flower2.svg") 100% 100%/auto no-repeat;
+  background-color: #FEFBF7;
+}
+
+.popular__container {
+  max-width: 1197px;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.popular__title {
+  color: black;
+  font-size: 58px;
+  font-family: "DM Serif Text", sans-serif;
+  line-height: 1;
+}
+.popular__title:not(:last-child) {
+  margin-bottom: 27px;
+}
+.popular__subtitle {
+  color: #606060;
+  font-size: 20px;
+  font-family: Inter;
+  line-height: 1.8;
+  margin-bottom: 45px;
+}
+.blok {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -24px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 48px;
+}
+
+.blok__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 33.3%;
+          flex: 1 0 33.3%;
+  padding: 0 24px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 8px;
+}
+@media (max-width: 900px) {
+  .blok__column {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+  }
+}
+@media (max-width: 600px) {
+  .blok__column {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+  }
+}
+.blok__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 17px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+@media (max-width: 490px) {
+  .blok__item {
+    margin: 0 -15px;
+  }
+}
+.blok__image {
+  aspect-ratio: 357/249;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+@media (any-hover: hover) {
+  .blok__image:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+.blok__subtitle {
+  color: black;
+  font-size: 24px;
+  font-family: "DM Serif Text", sans-serif;
+  line-height: 1.2;
+}
+@media (any-hover: hover) {
+  .blok__subtitle a:hover {
+    text-decoration: underline;
+  }
+}
+.blok__text {
+  color: black;
+  font-size: 16px;
+  font-family: Inter;
+  line-height: 1.6;
+}
+.blok__link-bottom {
+  color: #F55529;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 800;
+  line-height: 1.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (any-hover: hover) {
+  .blok__link-bottom span:hover {
+    text-decoration: underline;
+  }
+}
+@media (any-hover: hover) {
+  .blok__link-bottom:hover::after {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+.blok__link-bottom::after {
+  content: "";
+  background: url("../img/1/icon1.svg") no-repeat;
+  width: 24px;
+  height: 25px;
+  display: inline-block;
+  border-radius: 50%;
+}
